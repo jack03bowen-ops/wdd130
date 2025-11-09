@@ -1,0 +1,130 @@
+body {
+  background-color: #E5F2C9;
+  font-family: Merriweather, serif;
+  color: #001B2E;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #001B2E;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+header img {
+  width: 80px;
+}
+
+header h1 {
+  font-family: Impact, sans-serif;
+  color: #5386E4;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #5386E4;
+  font-family: Impact, sans-serif;
+}
+
+nav a:hover {
+  color: #E5F2C9;
+}
+
+main {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  font-family: Impact, sans-serif;
+  color: #001B2E;
+}
+
+p {
+  line-height: 1.5;
+}
+
+main img{
+  width: 25%;
+}
+
+.grid-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.grid-section img {
+  width: 100%;
+  max-width: 250px;
+  justify-self: center;
+}
+
+.grid-section table {
+  background-color: #E5F2C9;
+  border: 2px solid #001B2E;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #001B2E;
+  padding: 8px;
+}
+
+th {
+  background-color: #5386E4;
+  color: white;
+  font-family: Impact, sans-serif;
+}
+
+footer {
+  background-color: #001B2E;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+form {
+  margin-top: 10px;
+}
+
+label, input {
+  display: block;
+  margin: 5px auto;
+}
+
+input[type="text"] {
+  width: 60%;
+  padding: 6px;
+  border: 1px solid #7F534B;
+}
+
+input[type="submit"] {
+  background-color: #5386E4;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  font-family: Impact, sans-serif;
+}
+
+input[type="submit"]:hover {
+  background-color: #7F534B;
+}
